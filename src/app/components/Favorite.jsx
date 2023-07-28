@@ -69,7 +69,7 @@ const Favorite = () => {
                 night with friends and family by picking your favorite shows
                 from top streaming platforms. Here you can enjoy high-quality
                 streaming synchronized for everyone so that you can cheer and
-                have a fantastic time together. It`&apos;s the best way to make
+                have a fantastic time together. It&apos;s the best way to make
                 unforgettable memories with your loved ones.
               </p>
             </div>
