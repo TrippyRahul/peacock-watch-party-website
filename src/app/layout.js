@@ -14,9 +14,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" type="image/x-icon" href="/logo.png" />
-        <link rel="canonical" href="https://www.peacockparty.com/" />
+        <link rel="canonical" href="https://www.peacockparty.net/" />
 
-        <meta property="og:url" content="https://www.peacockparty.com/" />
+        <meta property="og:url" content="https://www.peacockparty.net/" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
@@ -28,12 +28,12 @@ export default function RootLayout({ children }) {
         />
         <meta
           property="og:image"
-          content="https://www.peacockparty.com/logo.png"
+          content="https://www.peacockparty.net/logo.png"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="peacockparty.com" />
-        <meta property="twitter:url" content="https://www.peacockparty.com/" />
+        <meta property="twitter:url" content="https://www.peacockparty.net/" />
         <meta
           name="twitter:title"
           content=" Watch your favorite show with a Peacock watch party"
@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           name="twitter:image"
-          content="https://www.peacockparty.com/logo.png"
+          content="https://www.peacockparty.net/logo.png"
         />
       </head>
       <body>
