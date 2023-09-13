@@ -33,8 +33,11 @@ const Footer = () => {
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular searches:</span> teleparty firefox, peacock party
-              streaming,
+              <span>Popular searches:</span>{" "}
+              <a href="https://www.watchottparty.com/" target="_blank">
+                watchottparty
+              </a>
+              , teleparty firefox, peacock party streaming,
             </p>
           </div>
           <ul>
