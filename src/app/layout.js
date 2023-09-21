@@ -15,6 +15,10 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" type="image/x-icon" href="/logo.png" />
         <link rel="canonical" href="https://www.peacockparty.net/" />
+        <meta
+          name="google-site-verification"
+          content="sDgXkaVJiGWiiVmnSJgbSyGJIqDJuTC8gztECqldLis"
+        />
 
         <meta property="og:url" content="https://www.peacockparty.net/" />
         <meta property="og:type" content="website" />
