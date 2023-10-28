@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/x-icon" href="/logo.png" />
+        <link rel="icon" type="image/x-icon" href="/logo.svg" />
         <link rel="canonical" href="https://www.peacockparty.net/" />
         <meta
           name="google-site-verification"
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           property="og:image"
-          content="https://www.peacockparty.net/logo.png"
+          content="https://www.peacockparty.net/logo.svg"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           name="twitter:image"
-          content="https://www.peacockparty.net/logo.png"
+          content="https://www.peacockparty.net/logo.svg"
         />
       </head>
       <body>

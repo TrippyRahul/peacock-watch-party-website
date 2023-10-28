@@ -8,10 +8,10 @@
         flex-wrap: wrap;
         align-items: center;
         padding: 5rem;
-        gap: 10rem;
+        gap: 5rem;
 
         .left{
-            flex: .5;
+            flex: .4;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -19,7 +19,7 @@
             position: relative;
 
             .image-container {
-                width: 90%;
+                width: 100%;
               
                 > div {
                   position: unset !important;
@@ -54,6 +54,7 @@
                         line-height: 5.5rem;
                         letter-spacing: 0em;
                         text-align: left;
+                        color: #DBDD73;
 
                     }
                 }
@@ -100,9 +101,7 @@
     .container{
         justify-content: center;
         flex-direction: column;
-        .left{
-           
-        }
+       
     }
    }
   }

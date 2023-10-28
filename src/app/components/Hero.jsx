@@ -1,32 +1,11 @@
-"use client";
-
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styles from "../styles/Hero.module.scss";
 import Button from "./Button";
 
 const Hero = () => {
-  const [bgClass, setBgClass] = useState("");
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth <= 768) {
-        setBgClass(styles["hero-mobile"]);
-      } else {
-        setBgClass(styles["hero-large"]);
-      }
-    };
-
-    handleResize();
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
   return (
     <>
-      <div className={`${styles.hero} ${bgClass}`}>
+      <div className={`${styles.hero} `}>
         <div className={styles.container}>
           <div className={styles.content}>
             <div className={styles["inner-container"]}>
@@ -44,22 +23,19 @@ const Hero = () => {
                   dramas to hilarious comedies, there is everything that you
                   want.
                 </p>
+                <p>
+                  Here you will not only get unlimited movie series but also
+                  amazing features like you can have chat and audio and video
+                  calls while streaming a movie. You can also create your own
+                  watching room and enjoy your favorite series with a Chrome
+                  watch party.
+                </p>
               </div>
               <div className={styles.btn}>
                 <Button />
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className={styles["virtual-party"]}>
-        <div className={styles.container}>
-          <p>
-            Here you will not only get unlimited movie series but also amazing
-            features like you can have chat and audio and video calls while
-            streaming a movie. You can also create your own watching room and
-            enjoy your favorite series with a Chrome watch party.
-          </p>
         </div>
       </div>
     </>

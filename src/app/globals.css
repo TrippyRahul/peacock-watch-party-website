@@ -22,7 +22,14 @@ html {
 }
 
 body {
-  background: #111;
+  background: #000;
+}
+
+.header-bg{
+  background: url('/header-bg.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .image-container {

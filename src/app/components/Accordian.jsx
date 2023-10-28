@@ -78,7 +78,6 @@ const Accordian = () => {
             </li>
           ))}
         </ol>
-        <Button />
       </div>
     </div>
   );
