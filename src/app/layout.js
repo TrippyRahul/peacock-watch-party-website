@@ -2,6 +2,7 @@ import Schema from "./Schema";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata = {
   title: " Watch your favorite show with a Peacock watch party ",
@@ -49,6 +50,18 @@ export default function RootLayout({ children }) {
         <meta
           name="twitter:image"
           content="https://www.peacockparty.net/logo.svg"
+        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BZWHP9J3E8" />
+        <Script
+          id="gtm-script"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-BZWHP9J3E8');
+          `,
+          }}
         />
       </head>
       <body>
