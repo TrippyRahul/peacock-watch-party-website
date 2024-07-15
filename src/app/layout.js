@@ -5,14 +5,14 @@ import "./globals.css";
 import Script from "next/script";
 
 export const metadata = {
-  title: " Watch your favorite show with a Peacock watch party ",
+  title: "Peacock TV Watch Party: Bringing Watch Parties to Your Home.",
   description:
-    "Join the peacock watch party for an unforgetful experience and enjoy unlimited shows and endless fun.",
+    "Peacock TV Watch Party is the best extension with its wonderful features. It is very easy to install on your desktop.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en-us">
       <head>
         <link rel="icon" type="image/x-icon" href="/logo.svg" />
         <link rel="canonical" href="https://www.peacockparty.net/" />
@@ -23,13 +23,14 @@ export default function RootLayout({ children }) {
 
         <meta property="og:url" content="https://www.peacockparty.net/" />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Peacock TV Watch Party"></meta>
         <meta
           property="og:title"
-          content=" Watch your favorite show with a Peacock watch party"
+          content="Peacock TV Watch Party: Bringing Watch Parties to Your Home."
         />
         <meta
           property="og:description"
-          content=" Join the peacock watch party for an unforgetful experience and enjoy unlimited shows and endless fun.."
+          content="Peacock TV Watch Party is the best extension with its wonderful features. It is very easy to install on your desktop."
         />
         <meta
           property="og:image"
@@ -41,11 +42,11 @@ export default function RootLayout({ children }) {
         <meta property="twitter:url" content="https://www.peacockparty.net/" />
         <meta
           name="twitter:title"
-          content=" Watch your favorite show with a Peacock watch party"
+          content="Peacock TV Watch Party: Bringing Watch Parties to Your Home."
         />
         <meta
           name="twitter:description"
-          content=" Join the peacock watch party for an unforgetful experience and enjoy unlimited shows and endless fun.."
+          content="Peacock TV Watch Party is the best extension with its wonderful features. It is very easy to install on your desktop."
         />
         <meta
           name="twitter:image"

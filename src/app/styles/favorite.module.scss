@@ -24,7 +24,7 @@ $large: 1024px;
     overflow: hidden;
     position: relative;
 
-    padding:5rem;
+    padding:10rem 5rem;
 
     
 
@@ -42,7 +42,26 @@ $large: 1024px;
             align-items: center;
             justify-content: space-between;
             gap: 4rem;
+           
+            ul{
+              padding-top: 5rem;
+              font-size: 2rem;
 
+              li{
+                padding-bottom: 5rem;
+                color: #DBDD73;
+                .title{
+                  color: #DBDD73;
+                  font-size: 2.6rem;
+                  font-weight: 600;
+                }
+                .installaionDesc{
+                  display: block;
+                  padding-top: 1rem;
+                  width: 80%;
+                }
+              }
+            }
             
             .left{
                 width: 100%;
@@ -88,6 +107,7 @@ $large: 1024px;
                 
                 .left-top, .left-bottom{
                     .headings{
+                        color: #DbDE07;
                         margin-bottom: 2rem;
                         h2{
                             font-size: 4.7rem;
@@ -95,9 +115,7 @@ $large: 1024px;
                             line-height: 5.5rem;
                             letter-spacing: 0em;
                             text-align: left;
-                            color: #DBDD73;
-
-                            
+                            color: #DbDE07;
                         }
                     }
                     
@@ -109,9 +127,8 @@ $large: 1024px;
                         gap: 2rem;
                         
                         p{
-                            font-size: 2.5rem;
+                            font-size: 3rem;
                             font-weight: 400;
-                            line-height: 2.9rem;
                             letter-spacing: 0em;
                             text-align: left;
                             z-index: 99;
@@ -140,6 +157,20 @@ $large: 1024px;
                 flex-direction: column;
                 width: 100%;
 
+                ul{
+                  font-size: 2rem;
+                  padding-top: 3rem;
+
+                  li{
+                       color:#DBDD73;
+                      padding-bottom: 3rem;
+                      .benifitstitle{
+                          color: #DBDD73;
+                      }
+                  }
+              }
+
+
                 @include for-greater-than-medium(){
                     width: 45%;
                 }
@@ -166,6 +197,7 @@ $large: 1024px;
                     gap: 2rem;
 
                     p{
+                        padding-top: 2rem;
                         font-size: 2.5rem;
                         font-weight: 400;
                         line-height: 2.9rem;
