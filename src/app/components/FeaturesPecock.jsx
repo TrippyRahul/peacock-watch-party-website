@@ -19,7 +19,7 @@ const FeaturesPecock = () => {
         <>
             <div className='text-center text-[5rem] pb-10 font-semibold text-[#DbDE07]'>Features of Peacock Watch Party</div>
             <div>
-                <p className='text-center text-[2.3rem] w-[80%] mx-auto pb-10'>Many people wondered whether does peacock have watch party. Well, you will be happy to hear that Peacock Watch Party is designed to enhance your streaming experience with features that make virtual gatherings fun and interactive. Here's what you can expect:</p>
+                <p className='text-center text-[2.3rem] w-[80%] mx-auto pb-10'>Many people wondered whether does peacock have watch party. Well, you will be happy to hear that Peacock Watch Party is designed to enhance your streaming experience with features that make virtual gatherings fun and interactive. Here&apos;s what you can expect:</p>
             </div>
             <div className='bg-white w-full py-10'>
 
