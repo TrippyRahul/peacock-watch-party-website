@@ -7,7 +7,7 @@ const Button = () => {
       href="https://chrome.google.com/webstore/detail/watchottparty/akbbdmilignoplkhminiaecccigmpdmo?hl=en-US"
       target="_blank"
     >
-      <button className={styles.btn}>
+      <button className={`hover:scale-105 tranistion ${styles.btn}`}>
         Add to Chrome
         <svg
           xmlns="http://www.w3.org/2000/svg"

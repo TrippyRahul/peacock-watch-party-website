@@ -23,7 +23,7 @@ const FeaturesPecock = () => {
             </div>
             <div className='bg-white w-full py-10'>
 
-                <div className='grid grid-cols-12 gap-x-10 py-10 w-[80%] mx-auto'>
+                <div className='grid grid-cols-12  md:gap-x-10 py-10 w-[90%] md:w-[80%] mx-auto'>
                     {
                         data?.map((item, ind) => (
                             <div key={ind} className='p-8 col-span-12 md:col-span-6 lg:col-span-4'>

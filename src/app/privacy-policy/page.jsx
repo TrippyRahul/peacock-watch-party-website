@@ -20,13 +20,10 @@ const Privacy = () => {
 
   return (
     <div>
-      <div className='bg-white py-7'>
-        <div className='text-black text-[2.5rem] font-semibold text-center'>Peacock Watch Party is now available on Google Chrome, Microsoft Edge and Mozilla Firefox</div>
-      </div>
       <div className='py-20'>
         <div className='w-[90%] md:w-[85%] p-10 border-[#D8D40C] rounded-xl border mx-auto'>
             <div>
-               <h1 className='text-center font-semibold text-[3rem] py-10'>Privacy Policy</h1>
+               <h1 className='text-center font-semibold text-[5rem] py-10'>Privacy Policy</h1>
             </div>
             <div className='pt-4'>
                <div className='text-white font-semibold text-[3rem]'>When Peacock Watch Party Collects Your Information</div> 

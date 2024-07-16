@@ -9,7 +9,7 @@ const questions = [
   {
     id: 1,
     ques: "How to do a watch party?",
-    ans: "How to do a watch party?",
+    ans: "It is very simple, just visit the Peacock watch party extention and install it on your browser.",
   },
   {
     id: 2,

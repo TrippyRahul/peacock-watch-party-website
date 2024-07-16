@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Work = () => {
   return (
-      <div className="grid grid-cols-12 pt-40 pb-10 items-center gap-x-10 w-[96%] mx-auto">
-        <div className="col-span-6">
+      <div className="grid grid-cols-12 pt-40 pb-10 items-center gap-y-10 md:gap-y-0 px-10 md:px-0 md:gap-x-10 w-[96%] mx-auto">
+        <div className="col-span-12 md:col-span-6">
           <h2 className="text-[4rem] font-semibold text-[#DBDE07]">
             Make your own watching room within the watch party on peacock
           </h2>
@@ -25,7 +25,7 @@ const Work = () => {
             entertainment together from the comfort of your homes.
           </p>
         </div>
-        <div className="col-span-6">
+        <div className="col-span-12 md:col-span-6">
           <Image src={'/customize.svg'} height={200} width={200} className="w-full h-full"/>
         </div>
       </div>

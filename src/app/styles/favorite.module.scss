@@ -7,7 +7,6 @@ $large: 1024px;
     @content;
   }
 }
-
 @mixin for-greater-than-medium {
   @media (min-width: $medium) {
     @content;
@@ -23,13 +22,8 @@ $large: 1024px;
 .favorite{
     overflow: hidden;
     position: relative;
-
     padding:10rem 5rem;
-
-    
-
     .container{
-
         display: flex;
         flex-direction: column;
         // border: 1px solid red;

@@ -96,11 +96,11 @@ const Favorite = () => {
     <>
           <div className='text-center pt-10 text-[5rem] pb-10 font-semibold text-[#DbDE07]'>Why Peacock TV Watch Party is Popular?</div>
           <div>
-            <p className='text-center text-[2.3rem] w-[80%] mx-auto pb-10'>Peacock TV Watch Party has gained popularity for several reasons. They bring people together, especially those who are far apart. Here are a few reasons why people enjoy watch parties:</p>
+            <p className='text-center text-[2.3rem] w-[90%] md:w-[80%] mx-auto pb-10'>Peacock TV Watch Party has gained popularity for several reasons. They bring people together, especially those who are far apart. Here are a few reasons why people enjoy watch parties:</p>
           </div>
           <div className='bg-white w-full py-10'>
 
-            <div className='grid grid-cols-12 gap-x-10 py-10 w-[80%] mx-auto'>
+            <div className='grid grid-cols-12 md:gap-x-10 py-10 w-[80%] mx-auto'>
               {
                 data1?.map((item, ind) => (
                   <div key={ind} className='p-8 col-span-12 md:col-span-6 lg:col-span-4'>
