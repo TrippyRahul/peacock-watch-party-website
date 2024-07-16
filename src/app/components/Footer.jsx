@@ -37,14 +37,14 @@ const Footer = () => {
           </div>
           <ul>
             <li className="inline-block pl-4">
-              <a href="/">
-                <BsFacebook size={25} className={styles.icon} />
-              </a>
+              <Link target="blank" href="https://www.facebook.com/peac0ck.watch.party/" className="hover:text-yellow-500">
+                <BsFacebook size={25} />
+              </Link>
             </li>
             <li className="inline-block pl-6">
-              <a href="/">
-                <FaInstagram size={25} className={styles.icon} />
-              </a>
+              <Link target="blank" href="https://www.instagram.com/peacock_watch_party?igsh=MWh3eWQzanBxYnJiZA==" className="hover:text-yellow-500">
+                <FaInstagram size={25} />
+              </Link>
             </li>
           </ul>
           <ul className="pt-6">
@@ -52,13 +52,7 @@ const Footer = () => {
               <Link href="/privacy-policy">Privacy Policy</Link>
             </li>
             <li>
-              <Link href="">Disclaimer</Link>
-            </li>
-            <li>
-              <Link href="">Blogs</Link>
-            </li>
-            <li>
-              <Link href="">Terms & Condition</Link>
+              <Link href="/support">Contact Us</Link>
             </li>
           </ul>
 

@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="header-bg">
       <Navbar pathName={path}/>
-      {path!="/privacy-policy"&&<Hero />}
+      {path=="/"&&<Hero />}
     </div>
   );
 };

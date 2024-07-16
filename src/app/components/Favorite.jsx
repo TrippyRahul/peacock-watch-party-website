@@ -52,7 +52,7 @@ const Favorite = () => {
     }
 ]
   return (
-    <>
+    <div id="how-it-works">
      <div className={styles.favorite}>
       <div className={styles.container}>
         <div className={styles.top}>
@@ -117,7 +117,7 @@ const Favorite = () => {
             </div>
           </div>
         </>
-    </>
+    </div>
    
   );
 };
