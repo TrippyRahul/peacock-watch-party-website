@@ -70,7 +70,7 @@ const Favorite = () => {
                   <ul className="space-y-10">
                     {
                       data?.map((item, ind) => (
-                        <div className="text-center border-[#F3F807] hover:bg-[#1E1E1E] h-[110px] group hover:h-[250px] md:hover:h-[200px] transition-all cursor-pointer overflow-hidden w-[90%] md:w-[60%] mx-auto border rounded-2xl px-16 py-8">
+                        <div key={ind} className="text-center border-[#F3F807] hover:bg-[#1E1E1E] h-[110px] group hover:h-[250px] md:hover:h-[200px] transition-all cursor-pointer overflow-hidden w-[90%] md:w-[60%] mx-auto border rounded-2xl px-16 py-8">
                           <div className="text-[3.5rem] text-[#F3F807DE] font-semibold">STEP {ind + 1}</div>
                           <div className="text-[3rem] text-[#D3FF9B]">{item.Title}</div>
                           <div className="text-[1.8rem] group-hover:block hidden text-white  text-center pt-8">

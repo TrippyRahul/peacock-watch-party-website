@@ -19,7 +19,7 @@ const FeaturesPecock = () => {
         <>
             <div className='text-center text-[5.5rem] pb-10 font-semibold text-[#DbDE07]'>Features of Peacock Watch Party</div>
             <div>
-                <p className='text-center text-[1.8rem] text-opacity-65 w-[90%] md:w-[60%] mx-auto pb-10'>In today's digital age, staying connected with friends and family, especially over long distances, has become more important than ever. Peacock TV Watch Party offers a seamless solution for hosting watch parties on Peacock TV, allowing you to enjoy your favorite shows and movies together, no matter where you are. This article will guide you through the features of the Peacock watch party, how it works, and the simple steps to get started with hosting your watch party.</p>
+                <p className='text-center text-[1.8rem] text-opacity-65 w-[90%] md:w-[60%] mx-auto pb-10'>In today&apos;s digital age, staying connected with friends and family, especially over long distances, has become more important than ever. Peacock TV Watch Party offers a seamless solution for hosting watch parties on Peacock TV, allowing you to enjoy your favorite shows and movies together, no matter where you are. This article will guide you through the features of the Peacock watch party, how it works, and the simple steps to get started with hosting your watch party.</p>
             </div>
             <div className='bg-black text-white w-full py-10'>
 
