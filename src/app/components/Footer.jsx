@@ -2,9 +2,9 @@ import React from "react";
 import styles from "../styles/footer.module.scss";
 import Button from "./Button";
 import { BsFacebook } from "react-icons/bs";
-import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 import Link from "next/link";
 import Image from "next/image";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -19,16 +19,11 @@ const Footer = () => {
               className={styles["image"]}
             />
           </div>
-          <h2>Peacock watch party</h2>
-          <p>
-            Have a great time watching your favorite content with hbomax
-            teleparty
-          </p>
+          <h2>Ready to start <br/>the Peacock TV Watch Party now</h2>
         </div>
-
         <Button />
 
-        <hr className={styles.line} style={{ color: "gray" }} />
+        <div className="w-[90%] h-[1px] bg-gradient-to-r from-[#76780400] via-[#fbff11] rounded-[5rem] to-[#76780400]" />
 
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>
@@ -37,38 +32,27 @@ const Footer = () => {
               <a href="https://www.watchottparty.com/" target="_blank">
                 watchottparty
               </a>
-              , teleparty firefox, peacock party streaming,
+              Peacock Watch Party,Peacock Party,Peacock TV Party,Peacock TV Watch Party,Peacock Watch <br/>Party Firefox,Peacock Watch Party Edge Addon,Peacock Watch Party Chrome Extension,Peacock Party Chrome,Peacock Watch Party Extension,Peacock <br/> Watch Party Addon,Peacock Party Edge,Peacock Party Firefox,Peacock TV Edge Addon,Peacock TV Firefox Addon,Peacock TV Chrome Extension
             </p>
           </div>
           <ul>
             <li className="inline-block pl-4">
-              <a href="/">
-                <BsFacebook className={styles.icon} />
-              </a>
+              <Link target="blank" href="https://www.facebook.com/peac0ck.watch.party/" className="hover:text-yellow-500">
+                <BsFacebook size={25} />
+              </Link>
             </li>
             <li className="inline-block pl-6">
-              <a href="/">
-                <AiFillTwitterCircle className={styles.icon} />
-              </a>
-            </li>
-            <li className="inline-block pl-6">
-              <a href="/">
-                <AiFillLinkedin className={styles.icon} />
-              </a>
+              <Link target="blank" href="https://www.instagram.com/peacock_watch_party?igsh=MWh3eWQzanBxYnJiZA==" className="hover:text-yellow-500">
+                <FaInstagram size={25} />
+              </Link>
             </li>
           </ul>
-          <ul>
+          <ul className="pt-6">
             <li>
-              <Link href="/">Privacy Policy</Link>
+              <Link href="/privacy-policy">Privacy Policy</Link>
             </li>
             <li>
-              <Link href="/">Disclaimer</Link>
-            </li>
-            <li>
-              <Link href="/">Blogs</Link>
-            </li>
-            <li>
-              <Link href="/">Terms & Condition</Link>
+              <Link href="/support">Contact Us</Link>
             </li>
           </ul>
 

@@ -10,25 +10,11 @@ const Hero = () => {
           <div className={styles.content}>
             <div className={styles["inner-container"]}>
               <div className={styles.headings}>
-                <h1>Experience unlimited series with teleparty peacock</h1>
+                <h1><span className="text-[#DBDE08]">Peacock TV Watch Party</span><br/> Bringing Watch Parties to Your Home</h1>
               </div>
               <div className={styles.text}>
                 <p>
-                  Experience the ultimate entertainment with the extension and
-                  immerse yourself in a world of non-stop enjoyment. With the
-                  peacock watch party extension, you can have seamless syncing
-                  and view alongside friends and family, sharing laughs and
-                  excitement. It has a vast collection of captivating content
-                  where you will get every type of content. From thrilling
-                  dramas to hilarious comedies, there is everything that you
-                  want.
-                </p>
-                <p>
-                  Here you will not only get unlimited movie series but also
-                  amazing features like you can have chat and audio and video
-                  calls while streaming a movie. You can also create your own
-                  watching room and enjoy your favorite series with a Chrome
-                  watch party.
+                  In today&apos;s digital age, staying connected with friends and family, especially over long distances, has become more important than ever. <a href="/" className="underline">Peacock TV Watch Party</a> offers a seamless solution for hosting watch parties on Peacock TV, allowing you to enjoy your favorite shows and movies together, no matter where you are. This article will guide you through the features of the Peacock watch party, how it works, and the simple steps to get started with hosting your watch party.
                 </p>
               </div>
               <div className={styles.btn}>

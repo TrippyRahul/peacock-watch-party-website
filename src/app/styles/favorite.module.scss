@@ -7,7 +7,6 @@ $large: 1024px;
     @content;
   }
 }
-
 @mixin for-greater-than-medium {
   @media (min-width: $medium) {
     @content;
@@ -21,99 +20,61 @@ $large: 1024px;
 
 
 .favorite{
-    overflow: hidden;
-    position: relative;
-
-    padding:5rem;
-
-    
-
     .container{
-
-        display: flex;
-        flex-direction: column;
-        // border: 1px solid red;
-        gap: 4rem;
-
+      padding-top: 10rem;
+      padding-bottom: 10rem;
         .top{
-            z-index: 999;
-            display: flex;
-            flex-wrap: wrap-reverse;
-            align-items: center;
-            justify-content: space-between;
-            gap: 4rem;
+          text-align: center;
+            ul{
+              padding-top: 5rem;
+              font-size: 2rem;
 
-            
-            .left{
-                width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                position: relative;
-
-                @include for-greater-than-medium(){
-                    width: 40%;
-                  }
-                
-                .image-container {
-
-                    width: 100%;
-                  
-                    > div {
-                      position: unset !important;
-                    }
-                  
-                    .image {
-                      object-fit: contain;
-                      width: 100% !important;
-                      position: relative !important;
-                      height: unset !important;
-                    }
-                  }
+              li{
+                padding-bottom: 5rem;
+                color: #DBDD73;
+                .title{
+                  color: #DBDD73;
+                  font-size: 2.6rem;
+                  font-weight: 600;
+                  text-align: center;
+                }
+                .installaionDesc{
+                  display: block;
+                  padding-top: 1rem;
+                  width: 100%;
+                }
+              }
             }
-
             
             .right{
                 width: 100%;
-
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
+             
              
                   
                 @include for-greater-than-medium(){
-                    width: 50%;
+                    width: 100%;
                 }
                 
-                .left-top, .left-bottom{
+                .left-top , .left-bottom{
                     .headings{
+                        color: #DbDE07;
                         margin-bottom: 2rem;
                         h2{
-                            font-size: 4.7rem;
+                            font-size: 5.5rem;
                             font-weight: 700;
-                            line-height: 5.5rem;
+                            line-height: 7.5rem;
                             letter-spacing: 0em;
-                            text-align: left;
-                            color: #DBDD73;
-
-                            
+                            text-align: center;
+                            color: #DbDE07;
                         }
                     }
                     
-                    .desc{
-                        padding-right: 4rem;
-                        display: flex;
-                        align-items: flex-start;
-                        flex-direction: column;
-                        gap: 2rem;
-                        
+                    .desc{   
                         p{
-                            font-size: 2.5rem;
+                            font-size: 1.8rem;
                             font-weight: 400;
-                            line-height: 2.9rem;
                             letter-spacing: 0em;
-                            text-align: left;
+                            text-align: center;
                             z-index: 99;
                             
                             span{
@@ -126,19 +87,26 @@ $large: 1024px;
         }
 
         .bottom{
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: space-between;
-            gap: 4rem;
-
-          
             .bottom-left{
 
                 z-index: 99;
                 display: flex;
                 flex-direction: column;
                 width: 100%;
+
+                ul{
+                  font-size: 2rem;
+                  padding-top: 3rem;
+
+                  li{
+                       color:#DBDD73;
+                      padding-bottom: 3rem;
+                      .benifitstitle{
+                          color: #DBDD73;
+                      }
+                  }
+              }
+
 
                 @include for-greater-than-medium(){
                     width: 45%;
@@ -166,6 +134,7 @@ $large: 1024px;
                     gap: 2rem;
 
                     p{
+                        padding-top: 2rem;
                         font-size: 2.5rem;
                         font-weight: 400;
                         line-height: 2.9rem;

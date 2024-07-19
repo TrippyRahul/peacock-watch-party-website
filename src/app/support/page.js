@@ -29,7 +29,7 @@ const Support = () => {
   return (
     <div className={styles.contact}>
       <div className={styles.container}>
-        <h2>Contact Us</h2>
+        <h2 className="text-white">Contact Us</h2>
         <form className={styles.form} onSubmit={sendEmail}>
           <div className={styles.item}>
             <label htmlFor="name">Enter your name</label>
@@ -38,6 +38,7 @@ const Support = () => {
               type="text"
               placeholder="Enter your name"
               name="name"
+              className="placeholder:text-[2rem] text-[2rem]"
               required
             />
           </div>
@@ -49,6 +50,7 @@ const Support = () => {
               placeholder="Enter your name"
               name="email"
               required
+              className="placeholder:text-[2rem] text-[2rem]"
             />
           </div>
           <div className={styles.item}>
@@ -59,6 +61,7 @@ const Support = () => {
               name="message"
               placeholder="Enter your message....."
               required
+              className="placeholder:text-[2rem] text-[2rem]"
             ></textarea>
           </div>
           <div className={styles.item}>

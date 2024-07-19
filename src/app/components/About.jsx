@@ -9,24 +9,11 @@ const About = () => {
         <div className={styles.top}>
           <div className={styles.left}>
             <div className={styles.headings}>
-              <h2>About the Peacock</h2>
+              <h2>About Us</h2>
             </div>
             <div className={styles.desc}>
               <p>
-                Enjoy unlimited streaming fun with friends and family, no matter
-                the distance, using the browser extension. View it together and
-                chat, and make audio and video calls while enjoying your
-                favorite shows. You can also peacock watch together with your
-                friends.
-              </p>
-              <p>
-                This extension allows it’s subscribers to see their favorite
-                shows and movies together in real-time with their best buddies,
-                even if they were in different locations. It synchronized the
-                video playback for all participants, so everyone could view
-                simultaneously, making it a shared viewing experience. The
-                feature also included a chat function, allowing viewers to
-                communicate and share their thoughts during the party.
+              Peacock Watch Party transforms the way you watch TV and movies with friends and family. By offering coordinated playback, an integrated chat feature, and an easy setup process, Peacock TV Watch Party ensures that distance is no longer a barrier to shared entertainment experiences. Ready to start your first watch party? Install the Peacock Watch Party extension, upgrade to premium, and enjoy your favorite Peacock TV shows and movies together, no matter where you are.  
               </p>
             </div>
           </div>
