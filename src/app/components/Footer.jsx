@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <Button />
 
-        <hr className={styles.line} style={{ color: "gray" }} />
+        <div className="w-[90%] h-[1px] bg-gradient-to-r from-[#76780400] via-[#fbff11] rounded-[5rem] to-[#76780400]" />
 
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>

@@ -39,86 +39,85 @@ const Favorite = () => {
 
   const data1 = [
     {
-        heading: "Social Interaction",
-        Desc: "Watching a show or movie with others allows for real-time interaction. You can share laughs, gasp at plot twists, and discuss the storyline as it unfolds."
+      heading: "Social Interaction",
+      Desc: "Watching a show or movie with others allows for real-time interaction. You can share laughs, gasp at plot twists, and discuss the storyline as it unfolds."
     },
     {
-        heading: "Convenience",
-        Desc: "You no longer have to wait for a physical gathering to enjoy a movie night with friends. With a watch party, everyone can join from the comfort of their own home."
+      heading: "Convenience",
+      Desc: "You no longer have to wait for a physical gathering to enjoy a movie night with friends. With a watch party, everyone can join from the comfort of their own home."
     },
     {
-        heading: "Shared Experience",
-        Desc: "Watching together creates a shared experience, making it more enjoyable. It’s like having a virtual movie theater with your favorite people."
+      heading: "Shared Experience",
+      Desc: "Watching together creates a shared experience, making it more enjoyable. It’s like having a virtual movie theater with your favorite people."
     }
-]
+  ]
   return (
     <div id="how-it-works">
-     <div className={styles.favorite}>
-      <div className={styles.container}>
-        <div className={styles.top}>
-          <div className={styles.left}>
-            <div className={styles["image-container"]}>
-              <Image
-                src="/favorite.svg"
-                alt="favorite"
-                fill={true}
-                className={styles.image}
-              />
-            </div>
-          </div>
-          <div className={styles.right}>
-            <div className={styles["left-top"]}>
-              <div className={styles.headings}>
-                <h2>How Does Peacock Watch Party Work?</h2>
-              </div>
-              <div className={styles.desc}>
-                <p>
-                  Getting started with Peacock Watch Party is simple. Here are the steps to host your Peacock TV watch party:
-                </p>
-              </div>
-              <div>
-                <ul>
-                  {
-                    data?.map((item, ind) => (
-                      <li key={ind}><span className={styles.title}>{item.Title}</span> <span className={styles.installaionDesc}>{item.Desc}</span></li>
-                    ))
-                  }
-                </ul>
+      <div className={styles.favorite}>
+        <div className={styles.container}>
+          <div className={styles.top}>
+            <div className={styles.right}>
+              <div className={styles["left-top"]}>
+                <div className={styles.headings}>
+                  <h2>How Does Peacock Watch Party Work?</h2>
+                </div>
+                <div className={styles.desc}>
+                  <p className="w-[90%] mx-auto">
+                    Getting started with Peacock Watch Party is simple. Here are the steps to host your Peacock TV watch party:
+                  </p>
+                </div>
+                <div>
+                  <ul className="space-y-10">
+                    {
+                      data?.map((item, ind) => (
+                        <div className="text-center border-[#F3F807] hover:bg-[#1E1E1E] h-[110px] group hover:h-[250px] md:hover:h-[200px] transition-all cursor-pointer overflow-hidden w-[90%] md:w-[60%] mx-auto border rounded-2xl px-16 py-8">
+                          <div className="text-[3.5rem] text-[#F3F807DE] font-semibold">STEP {ind + 1}</div>
+                          <div className="text-[3rem] text-[#D3FF9B]">{item.Title}</div>
+                          <div className="text-[1.8rem] group-hover:block hidden text-white  text-center pt-8">
+                            <p>{item.Desc}</p>
+                          </div>
+                        </div>
+                      ))
+                    }
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
+
+
         </div>
 
-        
       </div>
-      
-    </div>
-    <>
-          <div className='text-center pt-10 text-[5rem] pb-10 font-semibold text-[#DbDE07]'>Why Peacock TV Watch Party is Popular?</div>
-          <div>
-            <p className='text-center text-[2.3rem] w-[90%] md:w-[80%] mx-auto pb-10'>Peacock TV Watch Party has gained popularity for several reasons. They bring people together, especially those who are far apart. Here are a few reasons why people enjoy watch parties:</p>
-          </div>
-          <div className='bg-white w-full py-10'>
+      <>
+        <div className='text-center pt-16 text-[5.5rem] pb-16 font-semibold text-[#DbDE07]'>Why Peacock TV Watch Party is Popular?</div>
+        <div>
+          <p className='text-center text-[1.8rem] w-[90%] md:w-[45%] mx-auto pb-10'>Peacock TV Watch Party has gained popularity for several reasons. They bring people together, especially those who are far apart. Here are a few reasons why people enjoy watch parties:</p>
+        </div>
+        <div className='bg-black w-full py-10'>
 
-            <div className='grid grid-cols-12 md:gap-x-10 py-10 w-[80%] mx-auto'>
-              {
-                data1?.map((item, ind) => (
-                  <div key={ind} className='p-8 col-span-12 md:col-span-6 lg:col-span-4'>
-                    <div className='flex justify-center items-start flex-col pb-5'>
-                      <span className='inline-block bg-[#d7d949] w-[60px] h-[3px]'></span>
-                      <div className='text-center font-semibold text-black pt-5 text-[3rem]'>{item.heading}</div>
-                    </div>
+          <div className='grid grid-cols-12 md:gap-x-10 py-10 w-[80%] mx-auto'>
+            {
+              data1?.map((item, ind) => (
+                <div key={ind} className='p-8 border border-[#F3F807DE] rounded-2xl col-span-12 md:col-span-6 lg:col-span-4'>
+                  <div className='flex justify-start space-x-5 items-center pb-5'>
+                    <div className='text-[6rem] italic text-transparent bg-transparent' style={{ WebkitTextStrokeWidth: '1px', WebkitTextFillColor: '#000000', WebkitTextStrokeColor: '#F3F807DE' }}>{ind + 1}</div>
                     <div>
-                      <p className='text-black text-[2rem] w-[80%]'>{item.Desc}</p>
+                      <div className='text-center uppercase text-[#F3F807DE] font-semibold pt-5 text-[3rem]'>{item.heading}</div>
+                      <div className='w-[100%] h-[2px] bg-gradient-to-r rounded-3xl from-[#D3D806] to-[#D3D80600]'></div>
                     </div>
                   </div>
-                ))
-              }
-            </div>
+                  <div>
+                    <p className='text-[1.8rem] text-opacity-65'>{item.Desc}</p>
+                  </div>
+                </div>
+              ))
+            }
           </div>
-        </>
+        </div>
+      </>
     </div>
-   
+
   );
 };
 

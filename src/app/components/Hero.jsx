@@ -10,7 +10,7 @@ const Hero = () => {
           <div className={styles.content}>
             <div className={styles["inner-container"]}>
               <div className={styles.headings}>
-                <h1>Peacock TV Watch Party: Bringing Watch Parties to Your Home</h1>
+                <h1><span className="text-[#DBDE08]">Peacock TV Watch Party</span><br/> Bringing Watch Parties to Your Home</h1>
               </div>
               <div className={styles.text}>
                 <p>
