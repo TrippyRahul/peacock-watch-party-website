@@ -64,7 +64,7 @@ const Navbar = ({ pathName }) => {
             </div>
           </Link>
           <ul className={styles.links}>
-          {pathName!="/privacy-policy"&&<><li className={styles.link}>
+          {path=="/"&&<><li className={styles.link}>
               <Link href="/">Peacock watch party</Link>
             </li>
             <li className={styles.link}>
