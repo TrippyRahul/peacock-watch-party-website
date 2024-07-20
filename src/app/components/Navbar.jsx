@@ -1,18 +1,14 @@
 "use client";
-
 import React, { useEffect, useState } from "react";
 import styles from "../styles/header.module.scss";
 import Button from "./Button";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 const Navbar = ({ pathName }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [path, setPath] = useState("")
-  console.log(path)
-  useEffect(() => {
-    setPath(window?.location.pathname)
-  }, []);
+  const path=usePathname()
   return (
     <>
       <nav className={styles.navbar}>
@@ -29,7 +25,7 @@ const Navbar = ({ pathName }) => {
               </div>
             </Link>
           </li>
-          {pathName!="/privacy-policy"&&<>
+          {path=="/"&&<>
             <li className={styles.link}>
               <Link href="#features">Features</Link>
             </li>
@@ -68,7 +64,7 @@ const Navbar = ({ pathName }) => {
             </div>
           </Link>
           <ul className={styles.links}>
-          {pathName!="/privacy-policy"&&<><li className={styles.link}>
+          {path=="/"&&<><li className={styles.link}>
               <Link href="/">Peacock watch party</Link>
             </li>
             <li className={styles.link}>
