@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
           name="twitter:image"
           content="https://www.peacockparty.net/logo.svg"
         />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BZWHP9J3E8" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-16663147587" />
         <Script
           id="gtm-script"
           dangerouslySetInnerHTML={{
@@ -60,7 +60,8 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-BZWHP9J3E8');
+            
+            gtag('config', 'AW-16663147587');
           `,
           }}
         />
